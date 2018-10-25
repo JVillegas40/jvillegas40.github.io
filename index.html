@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-assets>
+     <a-asset-item id="Monster-obj" src="/path/to/Monster.obj"></a-asset-item>
+     <a-asset-item id="Monster-mtl" src="/path/to/Monster.mtl"></a-asset-item>
+</a-assets>d
+<a-entity obj-model="obj: #Monster-obj; mtl: #Monster-mtl"></a-entity>
+    <a-scene>
+      <a-box color="green" rotation="45 45 45" scale="2 2 2"></a-box>
+      <a-box color="green" position="7 13" rotation="30 30 30" scale="10 10 10"></a-box>
+          <a-sphere color="green" position="1 0 3"></a-sphere>
+          <a-sphere color="green" position="1 4 3"></a-sphere>
+          <a-sphere color="green" position="3 6 3"></a-sphere>
+<a-plane color="green" height="1000" width=1000 position="-2 -2 3 " rotation="-90 -100 -200"></a-plane>
+<a-text value="CASH MUNIES" color="red" position="-10 2 2" scale="20 20 20"></a-text>
+<a-sky color="#FFFE9F"></a-sky>
+    </a-scene>
+  </body>
+</html>a
