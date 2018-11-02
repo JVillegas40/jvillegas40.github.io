@@ -5,9 +5,12 @@
   </head>
   <body>
     <a-assets>
-     <a-asset-item id="Monster-obj" src="/path/to/Monster.obj"></a-asset-item>
-     <a-asset-item id="Monster-mtl" src="/path/to/Monster.mtl"></a-asset-item>
-</a-assets>d
+      <audio src="file:///Users/student/Downloads/FREE%20SCARY%20HORROR%20MUSIC%20--%20Creepy%20Old%20Record!.mp3" autoplay
+preload>
+</audio>
+     <a-asset-item id="Monster-obj" src="/path/to/Monster.obj" color="black" position="5 5 5"></a-asset-item>
+     <a-asset-item id="Monster-mtl" src="/path/to/Monster.mtl" color="black" position="5 5 5"></a-asset-item>
+    </a-assets>
 <a-entity obj-model="obj: #Monster-obj; mtl: #Monster-mtl"></a-entity>
     <a-scene>
       <a-box color="green" rotation="45 45 45" scale="2 2 2"></a-box>
@@ -18,6 +21,7 @@
 <a-plane color="green" height="1000" width=1000 position="-2 -2 3 " rotation="-90 -100 -200"></a-plane>
 <a-text value="CASH MUNIES" color="red" position="-10 2 2" scale="20 20 20"></a-text>
 <a-sky color="#FFFE9F"></a-sky>
+<a-entity obj-model="obj: #Monster-obj; mtl: #Monster-mtl" scale="0.01 0.01 0.01" roation="-90 0 0" position="3 3 3"></a-entity>
     </a-scene>
   </body>
 </html>a
