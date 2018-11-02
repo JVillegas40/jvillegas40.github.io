@@ -4,15 +4,13 @@
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   </head>
   <body>
+  <a-scene>
     <a-assets>
-      <audio src="file:///Users/student/Downloads/FREE%20SCARY%20HORROR%20MUSIC%20--%20Creepy%20Old%20Record!.mp3" autoplay
-preload>
-</audio>
      <a-asset-item id="Monster-obj" src="Monster.obj"></a-asset-item>
      <a-asset-item id="Monster-mtl" src="Monster.mtl"></a-asset-item>
     </a-assets>
 <a-entity obj-model="obj: #Monster-obj; mtl: #Monster-mtl"></a-entity>
-    <a-scene>
+
       <a-box color="green" rotation="45 45 45" scale="2 2 2"></a-box>
       <a-box color="green" position="7 13" rotation="30 30 30" scale="10 10 10"></a-box>
           <a-sphere color="green" position="1 0 3"></a-sphere>
@@ -24,4 +22,4 @@ preload>
 <a-entity obj-model="obj: #Monster-obj; mtl: #Monster-mtl" scale="0.01 0.01 0.01" roation="-90 0 0" position="2 0.5 -3"></a-entity>
     </a-scene>
   </body>
-</html>a
+</html>
